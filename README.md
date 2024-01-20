@@ -1,27 +1,27 @@
 # GlowByte_hackaton
 
-## Задача:
+## Objective
 
-Разработать надежную и точную модель прогнозирования объема почасового энергопотребления на следующие сутки для Калининградской области с использованием доступных исторических данных и соответствующих переменных.
+Develop a reliable and accurate model for forecasting the next day's hourly energy consumption for Kaliningrad region using available historical data and relevant variables.
 
-## Описание данных
+## Data Description
 
-*date* – дата
+*date* - date
 
-*time* – время, время представлено в диапазоне 0 – 23, что означает 24
-часа в сутках
+*time* - time, time is represented in the range 0 - 23, which means 24
+hours in a day
 
-*target* – фактическое потребление на указанную дату 
+*target* - actual consumption on the specified date 
 
-*temp* – фактическая температура на указанную дату 
+*temp* - actual temperature on the specified date 
 
-*temp_pred* – прогноз температуры на указанную дату 
+*temp_pred* - temperature forecast for the specified date 
 
-*weather_fact* – фактическая погода на указанную дату 
+*weather_fact* - actual weather on the specified date 
 
-*weather_pred* – прогноз погоды на указанную дату
+*weather_pred* - weather forecast for the specified date
 
-## Результаты
+## Results
 
-Была проведена детальная предобраюотка данных и создание большого количсетва дополнительных признаков из той информации, которая уже есть. Также в качестве признаков использовались предсказания на предстоящие сутки. 
-В качестве модели была выбрана LGBM. MAE : 5.91.
+A detailed preprocessing of the data and the creation of a large number of additional features from the information already available were performed. Predictions for the coming day were also used as features. 
+LGBM was chosen as the model. MAE : 5.91.
